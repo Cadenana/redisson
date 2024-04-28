@@ -1,0 +1,17 @@
+server:
+  port: 8005
+spring:
+  datasource:
+    username: root
+    password: 4582872
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/redisson_learn
+  cache:
+    type: redis
+  redis:
+    database: 0
+    port: 6379               # Redis服务器连接端口
+    host: 192.168.5.128          # Redis服务器地址
+    password:          # Redis服务器连接密码（默认为空）
+    timeout: 5000            # 超时时间
+
